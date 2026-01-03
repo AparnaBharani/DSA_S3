@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(DsaCodeRepo)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+set(SOURCES
+    main.c++
+    Sorting.c++
+    Counter.c++
+    StdRandom.c++
+    )
+set(HEADERS
+    Sorting.h++
+    Counter.h++
+    StdRandom.h++
+    Queue.hpp
+    Stack.hpp
+    FixedSizeStack.hpp
+    )
+
+add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})

@@ -1,0 +1,13 @@
+#include "FixedSizeStackApp.hpp"
+#include "StackApp.hpp"
+#include "QueueApp.hpp"
+
+
+int main()
+{
+  StackSpace::Demo();
+  QueueSpace::Demo();
+  FixedSizeStackSpace::Demo();
+    
+ return 0; 
+}

@@ -1,0 +1,14 @@
+#ifndef FIXEDSIZESTACKAPP_HPP
+#define FIXEDSIZESTACKAPP_HPP
+
+#include "FixedSizeStack.hpp"
+
+namespace FixedSizeStackSpace
+{
+  void Demo()
+  {
+    std::cout << "Awaiting Implementation " << std::endl;
+  }
+
+}
+#endif
